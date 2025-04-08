@@ -75,10 +75,12 @@ $$
 Combining All probabilities:
 
 $$
-	\text{total probability for median method} = \frac{1}{8} + \frac{6}{16} + \frac{3}{16} = \frac{11}{16} = 68.75 \text{\% chance of having a good pivot}
+	\text{total probability for median method} = \frac{1}{8} + \frac{6}{16} + \frac{3}{16} = \frac{11}{16} = 68.75 
 $$
 
 Therefore choosing the medium of 3 elements has a larger percentage chance of choosing a good pivot point vs the first element.
+
+$68.75\text{\\%}> 50\text{\\%}$
 
 Intuitively, choosing the median value from a larger spread sample size of elements with this method would result in a larger chance of hitting the middle good pivot range, vs choosing a single random element- so this answer makes sense to me.
 
