@@ -81,3 +81,8 @@ $$
 Therefore choosing the medium of 3 elements has a larger percentage chance of choosing a good pivot point vs the first element.
 
 Intuitively, choosing the median value from a larger spread sample size of elements with this method would result in a larger chance of hitting the middle good pivot range, vs choosing a single random element- so this answer makes sense to me.
+
+- Referenced https://www.geeksforgeeks.org/top-interview-questions-and-answers-on-quick-sort/ for working through the probability math, and pivot algorithm general reference.
+- Referenced slide 34 in lecture slide files as instructed
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
