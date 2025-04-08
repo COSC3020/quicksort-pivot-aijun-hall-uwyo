@@ -27,7 +27,8 @@ We are comparing two pivot selection strategies:
 1. Picking the first element of the subarray as the pivot
 2. Picking the median of the first, middle, and last elements of the subarray as the pivot
 
-For Case 1 (first element pivot), any single `n` element is equally likely to be in the first position, so the probability that the first element falls in the good pivot range of $\frac{n}{4} \ \text{to} \ \frac{3n}{4}$ is:
+For Case 1 (first element pivot), any single `n` element is equally likely to be in the first position, so the probability that the first element falls in the good pivot range of $\frac{n}{4}$ to $\frac{3n}{4}$ is:
+
 $$
   \text{good pivot chance} = \frac{n}{2} \div n = \frac{1}{2}
 $$
@@ -46,6 +47,7 @@ There are a couple scenarios for these 3 elements.
 Scenario 1:
 
 The probability that all 3 elements are in the good pivot range of $\frac{n}{4} \ \text{to} \ \frac{3n}{4}$ is:
+
 $$
   \text{all 3 good pivot chance} = (\frac{1}{2})^3 = \frac{1}{8}
 $$
@@ -53,6 +55,7 @@ $$
 Scenario 2:
 
 The probability that 2 elements are in the good pivot range, and 1 is on one of the edges:
+
 $$
 	\text{2 good pivot chance, 1 bad} = (\frac{1}{2})^2 * \frac{1}{4} = \frac{1}{16}
 $$
@@ -64,11 +67,13 @@ $$
 Scenario 3:
 
 The probability that 1 element is in the good pivot range, and 2 are in the edges (both sides)
+
 $$
 	\text{6 possible combinations} * [(\frac{1}{4})^2 * \frac{1}{2}] = \frac{3}{16}
 $$
 
 Combining All probabilities:
+
 $$
 	\text{total probability for median method} = \frac{1}{8} + \frac{6}{16} + \frac{3}{16} = \frac{11}{16} = 68.75 \text{\% chance of having a good pivot}
 $$
